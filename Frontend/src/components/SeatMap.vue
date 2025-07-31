@@ -31,7 +31,7 @@ export default {
     }
   },
   mounted() {
-    // 模擬資料（4樓、每層4座位，共16個）
+    
     for (let floor = 1; floor <= 4; floor++) {
       for (let number = 1; number <= 4; number++) {
         this.seats.push({
@@ -43,7 +43,7 @@ export default {
       }
     }
 
-    // 假設某些座位被佔用
+    
     this.seats[2].status = 'occupied'
     this.seats[6].status = 'occupied'
     this.seats[8].status = 'occupied'
@@ -55,7 +55,7 @@ export default {
     toggleSeat(seat) {
   if (seat.status === 'occupied') return
 
-  // 如果已經有選取的座位，並且不是目前點擊的座位，則取消之前的選取狀態
+  
   if (this.selectedSeatId && this.selectedSeatId !== seat.id) {
     const previouslySelectedSeat = this.seats.find(s => s.id === this.selectedSeatId)
     if (previouslySelectedSeat) {
@@ -63,13 +63,13 @@ export default {
     }
   }
 
-  // 切換目前點擊座位的狀態
+  /
   if (seat.status === 'selected') {
     seat.status = 'empty'
-    this.selectedSeatId = null // 沒有座位被選取
+    this.selectedSeatId = null 
   } else {
     seat.status = 'selected'
-    this.selectedSeatId = seat.id // 設定目前座位為已選取
+    this.selectedSeatId = seat.id 
   }
 }
   }
