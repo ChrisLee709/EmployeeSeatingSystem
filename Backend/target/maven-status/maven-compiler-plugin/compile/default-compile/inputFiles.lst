@@ -1,0 +1,8 @@
+/Users/liyuancheng/Documents/EmployeeSeatingSystem/Backend/src/main/java/com/example/seatingsystem/EmployeeSeatingSystemApplication.java
+/Users/liyuancheng/Documents/EmployeeSeatingSystem/Backend/src/main/java/com/example/seatingsystem/controller/EmployeeController.java
+/Users/liyuancheng/Documents/EmployeeSeatingSystem/Backend/src/main/java/com/example/seatingsystem/controller/SeatController.java
+/Users/liyuancheng/Documents/EmployeeSeatingSystem/Backend/src/main/java/com/example/seatingsystem/entity/Seat.java
+/Users/liyuancheng/Documents/EmployeeSeatingSystem/Backend/src/main/java/com/example/seatingsystem/model/Employee.java
+/Users/liyuancheng/Documents/EmployeeSeatingSystem/Backend/src/main/java/com/example/seatingsystem/repository/EmployeeRepository.java
+/Users/liyuancheng/Documents/EmployeeSeatingSystem/Backend/src/main/java/com/example/seatingsystem/repository/SeatRepository.java
+/Users/liyuancheng/Documents/EmployeeSeatingSystem/Backend/src/main/java/com/example/seatingsystem/service/SeatService.java
